@@ -1,0 +1,44 @@
+//Font Family
+$roboto: 'Roboto', sans-serif;
+$monospace: 'PT Mono', monospace;
+// Font Weight
+$light: 300;
+$regular: 400;
+
+// Font Sizes
+$xx-large: 70px;
+$x-large: 40px;
+$large: 30px;
+$medium: 18px;
+$small: 16px;
+
+
+/* Base Typography*/
+h1{
+  font-family: $mono;
+  font-weight: $regular;
+  font-size: $xx-large;
+}
+h2{
+  font-family: $mono;
+  font-weight: $regular;
+  font-size: $x-large;
+}
+
+h3{
+  font-family: $mono;
+  font-weight: $light;
+  font-size: $large;
+}
+
+h4{
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $medium;
+}
+
+h5{
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $small;
+}
