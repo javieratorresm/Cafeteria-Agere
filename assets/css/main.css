@@ -9755,6 +9755,7 @@ h5 {
   margin: 0;
   width: 100%;
   display: inline-block;
+  height: 205px;
 }
 .footer__main {
   width: 100%;
@@ -9768,11 +9769,13 @@ h5 {
   display: inline-block;
   width: 475px;
 }
-.footer__div--blue {
-  background-color: #3c91e6;
-}
 .footer__div__img {
   width: 100%;
+}
+.footer__div--blue {
+  width: 475px;
+  height: 130px;
+  background-color: #3c91e6;
 }
 
 .footer__img--float {
@@ -9782,6 +9785,14 @@ h5 {
   height: 150px;
   left: 63%;
   top: 74%;
+}
+.footer__img--float2 {
+  position: absolute;
+  z-index: 1;
+  width: 350px;
+  height: 200px;
+  left: 32%;
+  top: 78%;
 }
 
 .footer__texto {

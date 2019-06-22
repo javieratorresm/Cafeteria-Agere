@@ -49,8 +49,6 @@
   z-index: -1;
   left: 68%;
   top: 55%;
-
-
 }
 }
 
@@ -58,10 +56,12 @@
   margin: 0;
   width: 100%;
   display: inline-block;
+  height: 205px;
 
 
   &__main{
       width: 100%;
+
   }
 
   &__img{
@@ -76,17 +76,18 @@
   display: inline-block;
   width: 475px;
 
-  &--blue{
-    background-color: $blue-de-france;
-  }
   &__img{
     width: 100%;
+  }
+  &--blue{
+    width: 475px;
+    height: 130px;
+    background-color: $blue-de-france;
   }
 
 }
 
 .footer__img{
-
   &--float{
     position: absolute;
     z-index: 1;
@@ -94,6 +95,14 @@
     height: 150px;
     left: 63%;
     top: 74%;
+  }
+  &--float2{
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 200px;
+    left: 32%;
+    top: 78%;
   }
 }
 
