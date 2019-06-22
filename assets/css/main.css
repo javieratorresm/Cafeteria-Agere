@@ -9719,14 +9719,40 @@ h5 {
 .footer {
   margin: 0;
   width: 100%;
+  display: inline-block;
+}
+.footer__main {
+  width: 100%;
 }
 .footer__img {
   width: 100%;
 }
 
-.footer div {
-  display: flex;
-  width: 24%;
+.footer__div {
+  margin: 0;
+  display: inline-block;
+  width: 450px;
+}
+.footer__div--blue {
+  background-color: #3c91e6;
+}
+.footer__div__img {
+  width: 100%;
+}
+
+.footer__img--float {
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 150px;
+  left: 850px;
+  top: 510px;
+}
+
+.footer__texto {
+  width: 90%;
+  padding-top: 25px;
+  margin-left: 18px;
 }
 
 /*# sourceMappingURL=main.css.map */
