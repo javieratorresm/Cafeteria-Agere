@@ -6,9 +6,52 @@
     width: 100%;
   }
 
-}
-.titulo__cafeteria{
+  &__div{
+    width: 350px;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    background-color: $white;
+    left: 42%;
+    top: 61%;
+  }
 
+}
+
+.header__div{
+  width: 350px;
+  display: flex;
+
+
+
+  &--cuadro{
+
+
+  }
+  &--orange{
+      position: absolute;
+    background-color: $flame;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    left: 65%;
+    top: 51%;
+    color: $white;
+    font-size: 3rem;
+    font-style: bold;
+
+  }
+  &--yellow{
+      position: absolute;
+  background-color: $coral;
+  width: 100px;
+  height: 100px;
+  z-index: -1;
+  left: 68%;
+  top: 55%;
+
+
+}
 }
 
 .footer{
@@ -31,7 +74,7 @@
 .footer__div{
   margin: 0;
   display: inline-block;
-  width: 450px;
+  width: 475px;
 
   &--blue{
     background-color: $blue-de-france;
@@ -49,8 +92,8 @@
     z-index: 1;
     width: 100px;
     height: 150px;
-    left: 850px;
-    top: 510px;
+    left: 63%;
+    top: 74%;
   }
 }
 
